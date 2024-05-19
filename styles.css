@@ -30,33 +30,65 @@ h1, h2 {
     color: #333;
 }
 
-.content-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+section {
+    margin-bottom: 20px;
 }
 
-.text-wrapper {
-    width: 70%;
-}
-
-.image-wrapper {
-    width: 25%;
-    padding-left: 20px;
-}
-
-.owner-image {
+#map {
+    height: 400px;
     width: 100%;
-    height: auto;
+    margin-top: 10px;
 }
 
 .gallery {
     display: flex;
     justify-content: center;
+    gap: 10px;
     margin-top: 20px;
 }
 
-.market-image {
-    max-width: 100%;
+.gallery figure {
+    text-align: center;
+}
+
+.gallery img {
+    max-width: 450px;
+    max-height: 450px;
     height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.review {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.review p {
+    margin: 0;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
